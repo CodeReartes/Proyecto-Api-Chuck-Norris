@@ -65,6 +65,5 @@ si la categoría elegida es diferente a la opción "todas", por ejemplo.
 película o deportes, entonces usamos la URL dentro de la condición "si".
 
     App.js
-importe 
 Cree una funcion App donde exportara los archivos Header y Body
  
