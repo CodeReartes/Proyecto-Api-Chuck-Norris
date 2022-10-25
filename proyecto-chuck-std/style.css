@@ -1,0 +1,102 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+}
+
+@media only screen and (min-width: 300px) {
+  body {
+    background-color: #d0b53a92;
+  }
+
+  .header-wrapper {
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+  }
+
+  .header-banner {
+    background-color: rgb(48, 56, 59);
+    color: aliceblue;
+    font-size: 20px;
+    padding: 10px;
+    box-shadow: 1px 1px 10px 1px #161515bf;
+  }
+
+  .body-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .body-img {
+    width: 50%;
+    max-width: 300px;
+  }
+
+  .body-joke-area {
+    width: 90%;
+    background-color: azure;
+    padding: 10px;
+    margin: 0px 10px;
+    border: 1px solid black;
+    border-radius: 3px;
+    overflow-y: scroll;
+    max-height: 100px;
+  }
+
+  .body-button-wrapper {
+    margin-top: 50px;
+  }
+
+  .body-joke-button {
+    width: 100px;
+    padding: 10px;
+    font-size: 17px;
+    border-radius: 10px;
+    text-shadow: 0.5px 0.5px #000000;
+  }
+
+  .body-radio-wrapper {
+    margin-top: 30px;
+    width: 90%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 13px;
+  }
+
+  label {
+    font-size: 18px;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  .header-banner {
+    font-size: 35px;
+  }
+
+  .body-joke-area {
+    max-height: 150px;
+    font-size: 25px;
+  }
+
+  .body-joke-button {
+    width: 150px;
+    font-size: 25px;
+  }
+
+  .body-radio-wrapper {
+    width: 50%;
+  }
+
+  label {
+    font-size: 25px;
+  }
+
+  .body-radio-button {
+    border: 3px solid black;
+  }
+}
