@@ -1,12 +1,11 @@
-  Qué aprenderemos como parte de este Proyecto?
-
+ 
 - declaración de función
 - window.onload function
 - Fetch() method
 - adjuntando onclick eventlistener a un elemento
 
    Solucion Implementada
-Para implementar esta solucion utilice React desde 0 . 
+Para implementar esta solucion utilice React desde 0 descargue las depe . 
 Use la biblioteca Axios como una obtecion de chistes me parecio mejor opcion a la hora de menor codigo ,
 ya que al usar el Fetch API solo necesitaba una devolucion de llamada .then para acceder a los datos JSON solicitados 
 
@@ -66,5 +65,22 @@ película o deportes, entonces usamos la URL dentro de la condición "si".
 
     App.js
 Cree una funcion App donde exportara los archivos Header y Body
+
+prueba de Api en localhost:3000
  ![imagen captura localhost](https://user-images.githubusercontent.com/99770150/197676159-1919ab76-a783-4d36-932b-17fe026f7010.png)
 
+![imagen captura localhost prueba chiste](https://user-images.githubusercontent.com/99770150/197676568-5641da8f-9e6f-433e-9204-61ba4fe21800.png)
+
+
+Datos importante 
+
+Instalar Node JS.
+Levantamos la ventana de Comando de Windows CMD y ejecutamos las siguientes instrucciones o comandos
+node --version.- Verificamos la instalación
+npm --version.- Verificamos que se haya instalado correctamente el gestor de dependencias de Javascript
+npx create-react-app proyecto-chuck-react.- Con este comando iniciamos la instalación de un proyecto con React JS.
+cd proyecto-chuck-react .- Ingresamos al directorio de la aplicación
+npm start.- Finalmente iniamos la compilación del proyecto para visualizarlo en un navegador web
+
+Instalar axios
+npm install axios
