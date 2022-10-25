@@ -66,4 +66,5 @@ película o deportes, entonces usamos la URL dentro de la condición "si".
 
     App.js
 Cree una funcion App donde exportara los archivos Header y Body
- 
+ ![imagen captura localhost](https://user-images.githubusercontent.com/99770150/197676159-1919ab76-a783-4d36-932b-17fe026f7010.png)
+
