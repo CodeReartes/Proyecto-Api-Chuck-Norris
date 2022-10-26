@@ -44,9 +44,8 @@ export default function Body() {
         </button>
       </div>
       <div className="body-radio-wrapper">
-        //Categoria map devuelve componentes dentro de esa matriz
-        //cat = category 
-        {category.map((cat) => {
+
+    {category.map((cat) => {
           // retorno un componente como un div correcto
           return (
             <div className="body-radio-button">
