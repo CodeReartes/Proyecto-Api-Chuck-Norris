@@ -1,11 +1,12 @@
- 
+Qué aprenderemos como parte de este Proyecto?
+
 - declaración de función
 - window.onload function
 - Fetch() method
 - adjuntando onclick eventlistener a un elemento
 
    Solucion Implementada
-Para implementar esta solucion utilice React desde 0 descargue las depe . 
+Para implementar esta solucion utilice React desde 0 descargue las dependencias. 
 Use la biblioteca Axios como una obtecion de chistes me parecio mejor opcion a la hora de menor codigo ,
 ya que al usar el Fetch API solo necesitaba una devolucion de llamada .then para acceder a los datos JSON solicitados 
 
