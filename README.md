@@ -73,15 +73,16 @@ prueba de Api en localhost:3000
 ![imagen captura localhost prueba chiste](https://user-images.githubusercontent.com/99770150/197676568-5641da8f-9e6f-433e-9204-61ba4fe21800.png)
 
 
-Datos importante 
+Creacion del proyecto 
+npx create-react-app proyecto-chuck-react.- Con este comando inicie la instalación de mi proyecto con React JS.
+cd proyecto-chuck-react .- Ingre al directorio de la aplicación 
+Finalmente iniamos la compilación del proyecto con npm start para visualizarlo en un navegador web
 
-Instalar Node JS.
-Levantamos la ventana de Comando de Windows CMD y ejecutamos las siguientes instrucciones o comandos
-node --version.- Verificamos la instalación
-npm --version.- Verificamos que se haya instalado correctamente el gestor de dependencias de Javascript
-npx create-react-app proyecto-chuck-react.- Con este comando iniciamos la instalación de un proyecto con React JS.
-cd proyecto-chuck-react .- Ingresamos al directorio de la aplicación
-npm start.- Finalmente iniamos la compilación del proyecto para visualizarlo en un navegador web
+Para probar el Proyecto descargar Dependencias
+Abro una terminal y clono el repositorio, y luego ejecuto npm install para instalar las dependencias.
+Cuando termina la instalación de las dependencias, y la generación de la carpeta node_modules .
 
 Instalar axios
 npm install axios
+
+Diego Reartes
